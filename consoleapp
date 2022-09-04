@@ -3,4 +3,4 @@
 set -e
 
 ./gradlew -q installDist
- build/install/SampleConsoleApp/bin/SampleConsoleApp $*
+ build/install/SampleConsoleApp/bin/SampleConsoleApp "$@"
